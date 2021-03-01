@@ -1,0 +1,8 @@
+#! /usr/bin/env -S es-shell
+vis tseitin.ml
+
+dune build tseitin.exe &&
+	echo &&
+	time ./_build/default/tseitin.exe;
+
+echo
